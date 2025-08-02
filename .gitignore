@@ -99,3 +99,7 @@ venv.bak/
 # Docker
 docker_vol/
 
+# ca-certificates
+*.crt
+*.pem
+*.srl

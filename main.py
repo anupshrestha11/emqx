@@ -9,7 +9,7 @@ load_dotenv()
 
 # MQTT Broker settings
 BROKER_ADDRESS = os.getenv("BROKER_ADDRESS", "localhost")
-PORT = int(os.getenv("PORT", 1883))
+PORT = int(os.getenv("PORT", 8883))
 TOPIC = "emqx/test"
 
 # mTLS settings
